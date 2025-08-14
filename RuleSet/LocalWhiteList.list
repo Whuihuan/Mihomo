@@ -1,0 +1,6 @@
+# 内容：本地白名单
+# 数量：4条
+DOMAIN-SUFFIX,alicem.top
+DOMAIN-SUFFIX,liyuu.plus
+DOMAIN-SUFFIX,ayaka.ink
+DOMAIN-KEYWORD,localhost
