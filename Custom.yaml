@@ -1,0 +1,37 @@
+# https://mihomo.party/docs/guide/override/yaml
+rule-providers:
+  LocalWhiteList:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/LocalWhiteList.list
+    path: ./ruleset/LocalWhiteList.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAdobe:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/BanAdobe.list
+    path: ./ruleset/BanAdobe.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  IPAddress:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/IPAddress.list
+    path: ./ruleset/IPAddress.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
++rules:
+  # 代理
+  # 萌娘百科
+  - "DOMAIN-SUFFIX,moegirl.org.cn,节点选择"
+
+  # 直连
+  # 白名单
+  - "RULE-SET,LocalWhiteList,DIRECT"
+  # IP查询归属地
+  - "RULE-SET,IPAddress,DIRECT"
+
+  # 屏蔽
+  # Adobe
+  - "RULE-SET,BanAdobe,REJECT"

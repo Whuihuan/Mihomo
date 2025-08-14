@@ -1,0 +1,63 @@
+# https://mihomo.party/docs/guide/override/yaml
++proxy-groups:
+  - name: P2P流媒体
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
+    type: select
+    proxies:
+      - DIRECT
+      - 国内节点
+      - 节点选择
+      - 自动选择
+      - 手动切换
+  - name: 米哈游
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+    type: select
+    proxies:
+      - DIRECT
+      - 国内节点
+      - 节点选择
+      - 自动选择
+      - 手动切换
+  - name: 国内节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
+    include-all: true
+    filter: (?i)CN|China|中国|北京|天津|上海|重庆|内蒙古|广西|西藏|宁夏|新疆|河北|山西|辽宁|吉林|黑龙江|江苏|浙江|安徽|福建|江西|山东|河南|湖北|湖南|广东|海南|四川|贵州|云南|山西|甘肃|青海
+    type: select
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+
+rule-providers:
+  P2PMedia:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/P2PMedia.list
+    path: ./ruleset/P2PMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  CompanyProxy:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/CompanyProxy.list
+    path: ./ruleset/CompanyProxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  MiHoYo:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/MiHoYo.list
+    path: ./ruleset/MiHoYo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
++rules:
+  # P2P流媒体
+  - "RULE-SET,NetEaseMusic,P2P流媒体"
+  - "RULE-SET,P2PMedia,P2P流媒体"
+  
+  # 公司代理
+  - "RULE-SET,CompanyProxy,国内节点"
+
+  # 游戏
+  - "RULE-SET,MiHoYo,米哈游"
