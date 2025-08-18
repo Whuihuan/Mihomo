@@ -50,7 +50,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  MiHoYo:
+  Hoyoverse:
     url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/Hoyoverse.list
     path: ./ruleset/Hoyoverse.list
     behavior: classical
