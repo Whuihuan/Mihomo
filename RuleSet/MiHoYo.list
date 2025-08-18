@@ -1,23 +1,27 @@
 # 内容：米哈游
-# 数量：9条
+# 数量：13条
 
 # 米哈游官网
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,mihayo.com
-DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-KEYWORD,mihoyo
+DOMAIN-KEYWORD,mihayo
 
 # 米游社
 DOMAIN-SUFFIX,miyoushe.com
-DOMAIN-SUFFIX,hoyolab.com
 
 # 崩坏3
 DOMAIN-SUFFIX,bh3.com
+DOMAIN-KEYWORD,bh3
 
 # 原神
 DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-KEYWORD,yuanshen
 
 # 崩坏：星穹铁道
 DOMAIN-SUFFIX,bhsr.com
+DOMAIN-KEYWORD,bhsr
 
 # 绝区零
 DOMAIN-SUFFIX,juequling.com
+DOMAIN-KEYWORD,juequling

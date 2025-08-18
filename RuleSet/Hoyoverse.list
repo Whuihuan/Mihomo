@@ -1,0 +1,28 @@
+# 内容：Hoyoverse（米哈游海外）
+# 数量：14条
+
+# 米哈游官网
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-KEYWORD,hoyoverse
+
+# 米游社
+DOMAIN-SUFFIX,hoyolab.com
+DOMAIN-SUFFIX,hoyo.link
+
+# 崩坏3
+DOMAIN-SUFFIX,houkai3rd.com
+DOMAIN-SUFFIX,honkaiimpact3.com
+DOMAIN-KEYWORD,honkaiimpact3
+
+# 原神
+DOMAIN-SUFFIX,genshinimpact.com
+
+# 崩坏：星穹铁道
+DOMAIN-SUFFIX,starrails.com
+DOMAIN-SUFFIX,honkaistarrail.com
+
+# 其他
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,jp.f.gm.mob.com

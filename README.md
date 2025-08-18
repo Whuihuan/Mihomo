@@ -25,3 +25,4 @@
 [P2PMedia.list](https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/P2PMedia.list)    |    翁法罗斯也要有娱乐    | P2P流媒体
 [CompanyProxy.list](https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/CompanyProxy.list)    |    奥赫玛的律法    | 公司内代理规则
 [MiHoYo.list](https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/MiHoYo.list)    |    来古士的大手    | 米忽悠
+[Hoyoverse.list](https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/Hoyoverse.list)    |    赞达尔的大手    | 米忽悠海外

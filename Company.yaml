@@ -50,6 +50,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  MiHoYo:
+    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/Hoyoverse.list
+    path: ./ruleset/Hoyoverse.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 +rules:
   # P2P流媒体
@@ -61,3 +68,4 @@ rule-providers:
 
   # 游戏
   - "RULE-SET,MiHoYo,米哈游"
+  - "RULE-SET,Hoyoverse,游戏平台"
