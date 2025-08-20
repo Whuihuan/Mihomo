@@ -1,21 +1,21 @@
 # https://mihomo.party/docs/guide/override/yaml
 rule-providers:
   LocalWhiteList:
-    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/LocalWhiteList.list
+    url: https://fastly.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/LocalWhiteList.list
     path: ./ruleset/LocalWhiteList.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   BanAdobe:
-    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/BanAdobe.list
+    url: https://fastly.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/BanAdobe.list
     path: ./ruleset/BanAdobe.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   IPAddress:
-    url: https://testingcf.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/IPAddress.list
+    url: https://fastly.jsdelivr.net/gh/Whuihuan/Mihomo@main/RuleSet/IPAddress.list
     path: ./ruleset/IPAddress.list
     behavior: classical
     interval: 86400
