@@ -69,3 +69,7 @@ rule-providers:
   # 游戏
   - "RULE-SET,MiHoYo,米哈游"
   - "RULE-SET,Hoyoverse,游戏平台"
+
+hosts:
+  'iqipaoxian.com': gz1.com.liyuu.plus
+  'www.iqipaoxian.com': gz1.com.liyuu.plus
