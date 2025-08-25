@@ -1,9 +1,10 @@
 # 内容：解除公司访问屏蔽
-# 数量：3条
+# 数量：4条
 
 # 百度
 DOMAIN-SUFFIX,cdn.bcebos.com
 DOMAIN-SUFFIX,jomodns.com
+DOMAIN-SUFFIX,tiebapic.baidu.com
 
 # IT之家
 DOMAIN-SUFFIX,ithome.com
