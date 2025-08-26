@@ -1,5 +1,5 @@
 # 内容：P2P流媒体
-# 数量：6条
+# 数量：10条
 
 # 网易云扩展
 DOMAIN-SUFFIX,music.126.net
@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,douyinvod.com
+
+# 红番茄视频
+DOMAIN-SUFFIX,vod.300hu.com
