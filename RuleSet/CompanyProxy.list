@@ -8,3 +8,6 @@ DOMAIN-SUFFIX,tiebapic.baidu.com
 
 # IT之家
 DOMAIN-SUFFIX,ithome.com
+
+# 哔哩哔哩图片
+DOMAIN-SUFFIX,i2.hdslb.com
