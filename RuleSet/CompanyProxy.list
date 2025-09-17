@@ -1,5 +1,5 @@
 # 内容：解除公司访问屏蔽
-# 数量：4条
+# 数量：6条
 
 # 百度
 DOMAIN-SUFFIX,cdn.bcebos.com
@@ -11,3 +11,4 @@ DOMAIN-SUFFIX,ithome.com
 
 # 哔哩哔哩图片
 DOMAIN-SUFFIX,i2.hdslb.com
+DOMAIN-SUFFIX,album.biliimg.com
