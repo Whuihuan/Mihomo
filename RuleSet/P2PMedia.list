@@ -1,5 +1,5 @@
 # 内容：P2P流媒体
-# 数量：12条
+# 数量：13条
 
 # 网易云扩展
 DOMAIN-SUFFIX,music.126.net
@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,music.126.net
 DOMAIN-SUFFIX,y.qq.com
 DOMAIN-SUFFIX,qqmusic.qq.com
 DOMAIN-SUFFIX,tc.qq.com
+DOMAIN-SUFFIX,y.gtimg.cn
 DOMAIN-SUFFIX,v.qq.com
 
 # 抖音
