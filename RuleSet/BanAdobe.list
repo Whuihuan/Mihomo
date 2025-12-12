@@ -1,8 +1,9 @@
 # 内容：屏蔽Adobe
-# 数量：6条
+# 数量：7条
 DOMAIN-SUFFIX,genuine.adobe.com
 DOMAIN-SUFFIX,prod.adobegenuine.com
 DOMAIN-SUFFIX,assets.adobedtm.com
 DOMAIN-SUFFIX,cc-api-data.adobe.io
 DOMAIN-SUFFIX,crs.cr.adobe.com
 DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobestats.io
